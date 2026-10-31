@@ -29,10 +29,17 @@ This project focuses on analyzing marketing campaign data to understand customer
 7. Findings and recommendations.
 # Marketing Campaign Analysis
 
-## Project Dashboard
+### Page 1 – Marketing Campaign Performance Overview
 
-![Marketing Campaign Dashboard](marketing campaign dashboard 1.png)
-![Marketing Campaign Dashboard](marketing campaign dashboard 2.png)
+![Dashboard Overview](Image/Marketing_dashboard_1.png)
+
+---
+
+### Page 2 – Where Is Our Performance Coming From?
+
+<!-- Add your Page 2 dashboard screenshot here -->
+
+![Performance Analysis](Image/Marketing_dashboard_2.png)
 
 ## Project Files
 - `dataset/` – Dataset used for analysis.
