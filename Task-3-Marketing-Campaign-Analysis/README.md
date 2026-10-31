@@ -31,7 +31,7 @@ This project focuses on analyzing marketing campaign data to understand customer
 
 ### Page 1 – Marketing Campaign Performance Overview
 
-![Dashboard Overview](Image/Marketing_dashboard_1.png)
+![Dashboard Overview](Image/marketing_campaign_dashboard_1.png)
 
 ---
 
@@ -39,7 +39,7 @@ This project focuses on analyzing marketing campaign data to understand customer
 
 <!-- Add your Page 2 dashboard screenshot here -->
 
-![Performance Analysis](Image/Marketing_dashboard_2.png)
+![Performance Analysis](Image/marketing_campaign_dashboard_1.png)
 
 ## Project Files
 - `dataset/` – Dataset used for analysis.
