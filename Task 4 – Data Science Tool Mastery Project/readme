@@ -1,1 +1,205 @@
+# 🛒 E-Commerce Sales Analysis Dashboard
 
+### Sales Performance Analysis | Data Visualization | Power BI
+
+## 📌 Project Overview
+
+The E-Commerce Sales Analysis Dashboard is a data analytics and visualization project developed to understand and monitor the sales performance of an e-commerce business.
+
+The project focuses on analysing important business metrics such as total revenue, total orders, total quantity sold, and average order value. It also explores category-wise sales, order status distribution, product size preferences, and revenue trends over time.
+
+An interactive Power BI dashboard is developed to transform sales data into meaningful visual insights. Users can apply different filters, such as date, category, fulfilment method, and shipping state, to explore sales performance from different perspectives.
+
+The dashboard helps identify popular product categories, understand order fulfilment patterns, compare customer purchasing preferences, and monitor overall business performance.
+
+## 🎯 Project Objectives
+
+- Analyse overall e-commerce sales performance.
+- Monitor total revenue and total orders.
+- Calculate total quantity sold and average order value.
+- Identify top-performing product categories.
+- Analyse order status and fulfilment performance.
+- Understand product size preferences.
+- Examine revenue trends over time.
+- Compare sales performance across different shipping states.
+- Create an interactive dashboard for business reporting.
+
+## 🛠️ Tools and Technologies
+
+- **Power BI:** Interactive dashboard development and data visualization.
+- **Power Query:** Data transformation and preprocessing, if used in the project.
+- **DAX:** KPI calculations and measures, if used in the project.
+- **Excel / CSV:** Source data handling, depending on the actual dataset format.
+
+## 📊 Key Performance Indicators (KPIs)
+
+The overall dashboard displays the following business metrics:
+
+| KPI | Dashboard Value |
+|---|---:|
+| Total Revenue | 78.59M |
+| Total Orders | 129K |
+| Total Quantity | 117K |
+| Average Order Value | 609.37 |
+
+*These values represent the overall dashboard view shown in the third screenshot. Values change when filters are applied.*
+
+## 📈 Dashboard Features
+
+### 1. Revenue and Sales Overview
+
+Displays important KPIs, including:
+- Total Revenue
+- Total Orders
+- Total Quantity
+- Average Order Value
+
+### 2. Yearly Revenue Trend
+
+A time-based chart used to monitor revenue changes over the displayed period from April 2022 to June 2022.
+
+It helps identify changes and fluctuations in sales performance.
+
+### 3. Top Categories by Revenue
+
+Compares product categories based on their revenue contribution.
+
+The displayed categories include:
+- Set
+- Kurta
+- Western Dress
+- Top
+- Ethnic Dress
+- Blouse
+- Bottom
+- Saree
+- Dupatta
+
+Set and Kurta are among the leading categories in the overall dashboard view.
+
+### 4. Orders by Status
+
+A doughnut chart represents the distribution of orders by status, including:
+- Shipped
+- Shipped – Delivered to Buyer
+- Cancelled
+- Shipped – Returned to Seller
+- Shipped – Picked Up
+- Pending
+
+This helps understand order processing and delivery status.
+
+### 5. Product Size Analysis
+
+A pie chart displays the quantity distribution across different product sizes:
+- M
+- L
+- XL
+- XXL
+- S
+- 3XL
+
+It helps identify popular size categories based on order quantity.
+
+### 6. Detailed Sales Table
+
+The dashboard includes a detailed table with information such as:
+- Category
+- Sum of Amount
+- Shipping City
+- Shipping State
+- Shipping Country
+- Order Status
+- Currency
+- Sum of Quantity
+
+This allows users to inspect individual sales records and compare location-wise performance.
+
+## 🎛️ Interactive Dashboard Filters
+
+The dashboard provides the following slicers:
+
+| Filter | Purpose |
+|---|---|
+| Date | Analyse sales for a selected date or period |
+| Category | View sales for a particular product category |
+| Fulfilment | Filter orders by fulfilment method |
+| Ship-State | Analyse sales by shipping state |
+
+These filters allow users to explore different business scenarios and analyse specific segments of the sales data.
+
+## 🔍 Key Business Insights
+
+Based on the overall dashboard screenshot:
+
+1. Total revenue is approximately 78.59M.
+2. The dashboard displays approximately 129K orders.
+3. Total quantity sold is approximately 117K.
+4. Average order value is approximately 609.37.
+5. Set and Kurta are among the leading categories by revenue.
+6. Shipped orders represent the largest visible order-status segment.
+7. Multiple product sizes contribute to the overall quantity sold.
+8. The revenue trend shows fluctuations throughout the displayed period.
+
+## 💡 Business Recommendations
+
+- Monitor high-revenue product categories to understand their sales contribution.
+- Analyse order cancellations and returns to identify possible operational issues.
+- Track popular product sizes to support inventory planning.
+- Monitor revenue trends to identify changes in business performance.
+- Compare shipping-state performance to understand geographical sales distribution.
+- Use interactive filters for more detailed sales analysis.
+
+## 📁 Project Structure
+
+```text
+E-Commerce-Sales-Analysis/
+│
+├── Dataset/
+│   └── ecommerce_sales.csv
+│
+├── Dashboard/
+│   └── Ecommerce_Sales_Dashboard.pbix
+│
+├── Images/
+│   ├── E-commerce_sales_dashboard_1.jpg
+│   ├── E-commerce_sales_dashboard_2.jpg
+│   └── E-commerce_sales_dashboard_3.jpg
+│
+└── README.md
+```
+
+*Update the folder and file names according to your actual GitHub repository.*
+
+## 🚀 How to Use the Dashboard
+
+1. Download or clone the project repository.
+2. Open the Power BI `.pbix` file using Power BI Desktop.
+3. Explore the overall sales KPIs.
+4. Apply date, category, fulfilment, and shipping-state filters.
+5. Compare category-wise revenue and order status.
+6. Analyse product sizes and detailed sales records.
+
+## 📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Understanding e-commerce sales data.
+- Analysing business performance metrics.
+- Creating interactive Power BI dashboards.
+- Working with KPI cards and different chart types.
+- Exploring category-wise and location-wise sales.
+- Understanding order fulfilment and status distribution.
+- Presenting business insights through data visualization.
+
+## 👩‍💻 Author
+
+**Priyanka Das**
+
+Data Engineering Student | Aspiring Data Analyst
+
+GitHub: [priyankadas-star](https://github.com/priyankadas-star)
+
+---
+
+*This project demonstrates the use of data visualization and dashboard reporting to understand e-commerce sales performance.*
