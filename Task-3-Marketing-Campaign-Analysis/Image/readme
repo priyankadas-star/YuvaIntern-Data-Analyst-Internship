@@ -1,1 +1,76 @@
+1. Dashboard title and description
+Title: Marketing Campaign Analysis Dashboard
 
+Subtitle: Sales Performance Analysis Across Markets, Promotions and Locations
+
+Description:
+This dashboard provides an overview of marketing campaign sales performance. It analyses sales by market size, promotion, week, location and store age to identify important sales patterns and support data-driven decisions.
+2. KPI cards
+Add these KPI cards at the top of your dashboard.
+TOTAL SALES
+29.30K
+
+
+TOTAL MARKETS
+10
+
+
+TOTAL LOCATIONS
+137
+
+
+TOTAL RECORDS
+548
+
+
+
+Note: Total sales are in thousands, as represented by the dataset's SalesInThousands column.
+3. Charts to include
+Chart title	Visualization	Fields
+Sales by Market Size	Donut chart	MarketSize, Sum of SalesInThousands
+Sales by Promotion	Bar chart	Promotion, Sum of SalesInThousands
+Weekly Sales Trend	Line chart	week, Sum of SalesInThousands
+Top 10 Locations	Horizontal bar chart	LocationID, Sum of SalesInThousands
+Average Sales by Store Age	Column chart	AgeOfStore, Average of SalesInThousands
+Sales by Store Age and Market Size	Stacked column chart	AgeOfStore, MarketSize, Average SalesInThousands
+
+4. Sales by market size
+Use this information in your dashboard:
+Market size	Sales	Contribution
+Medium	14.08K	48.0%
+Large  	11.78K	40.2%
+Small	  3.44K	11.76%
+
+Insight: Medium-sized markets contribute the highest share of total sales, followed by large and small markets.
+5. Promotion analysis
+Promotion	Approximate dashboard sales
+Promotion 1	10.0K
+Promotion 2	8.9K
+Promotion 3	10.4K
+
+Insight: Promotion 3 records the highest sales, while Promotion 2 records the lowest sales.
+6. Weekly sales trend
+Week	Approximate dashboard sales
+Week 1	7.38K
+Week 2	7.31K
+Week 3	7.32K
+Week 4	7.29K
+
+Insight: Sales remain relatively stable across all four weeks, with Week 1 recording the highest sales.
+7. Add slicers for interactivity
+Add these slicers on the left or top of your dashboard:
+- Market Size
+- Promotion
+- Week
+- Location ID
+- Store Age
+These will allow users to filter the dashboard and explore different sales categories.
+8. Add a key insights panel
+You can place this text in a separate text box on your dashboard:
+KEY BUSINESS INSIGHTS
+- Medium markets contribute approximately 48% of total sales.
+- Promotion 3 records the highest promotion-wise sales.
+- Week 1 has the highest weekly sales.
+- The dataset covers 137 locations across 10 markets.
+- Location-wise analysis helps identify high-performing locations.
+- Store-age analysis helps compare sales performance across different store ages.
